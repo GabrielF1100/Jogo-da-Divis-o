@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Da Divisão</title>
+</head>
+
+<body>
+    <div id="pontuacao">Pontuação:0</div>
+    <div id="divisor">Conta:</div>
+    <div id="modal-container">
+        <div class="NumberD0" style="left: 400px; top: 250px;"></div>
+        <div class="NumberD1" style="left: 450px; top: 250px;"></div>
+        <div class="NumberD2" style="left: 500px; top: 250px;"></div>
+        <div class="NumberD3" style="left: 550px; top: 250px;"></div>
+        <div class="NumberD4" style="left: 600px; top: 250px;"></div>
+        <div class="NumberD5" style="left: 650px; top: 250px;"></div>
+        <div class="NumberD6" style="left: 700px; top: 250px;"></div>
+        <div class="NumberD7" style="left: 750px; top: 250px;"></div>
+        <div class="NumberD8" style="left: 800px; top: 250px;"></div>
+        <div id="contD" style="left: 1000px; top: 250px;">Dezenas:0</div>
+        <div class="NumberU0" style="left: 400px; top: 350px"></div>
+        <div class="NumberU1" style="left: 450px; top: 350px"></div>
+        <div class="NumberU2" style="left: 500px; top: 350px"></div>
+        <div class="NumberU3" style="left: 550px; top: 350px"></div>
+        <div class="NumberU4" style="left: 600px; top: 350px"></div>
+        <div class="NumberU5" style="left: 650px; top: 350px"></div>
+        <div class="NumberU6" style="left: 700px; top: 350px"></div>
+        <div class="NumberU7" style="left: 750px; top: 350px"></div>
+        <div class="NumberU8" style="left: 800px; top: 350px"></div>
+        <div id="contU" style="left: 1000px; top: 350px;">Unidades:0</div>
+        <div id="modal-resposta">
+            <button id="resposta">Resposta</button>
+        </div>
+        <div id="modal-zerar">
+            <button id="zerar">zerar</button>
+        </div>
+    </div>
+    <div id="modal">
+        <div id="modal-card">
+            <h2>Bem-vindo ao Jogo Da Divisão!</h2>
+            <p>Regras do Jogo:</p>
+            <p>1.Faça a divisão que aparecerá na parte de cima da tela</p>
+            <p>2.Se a divisão der um numero com virgula, aproxime o seu resultado para o menor numero inteiro perto do
+                resultado.</p>
+            <p>3.Para responder utilize as bolinhas verdess como dezena e as vermelhas como unidade, a quantidade de
+                bolinhas clicadas valerá como o algarismo</p>
+            <p>4.Se você clicar na mesma bolinha, elá não será contada mais de uma vez, clique em bolinhas diferentes
+            </p>
+            <p>5. Após escolher sua resposta, clique no botão 'resposta', se você acertar será aumentada sua pontuação e
+                te daremos uma nova conta, e irá zerar as unidades e dezenas, se você errar perderá 2 pontos e terá que fazer a mesma conta.</p>
+            <p>Boa sorte!</p>
+
+            <button id="iniciar-jogo">Iniciar Jogo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
